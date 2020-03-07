@@ -2,18 +2,19 @@
   "name": "search-movies",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jslonim.github.io/React-Movie-Search",
+  "homepage": "https://jslonim.github.io/React-Movie-Search/",
   "dependencies": {
     "bulma": "0.6.1",
     "gh-pages": "^2.2.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "4.3.1",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "yarn": "^1.22.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
